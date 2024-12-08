@@ -20,10 +20,7 @@ Queuing are the most frequently encountered problems in everyday life. For examp
 ![exp5 2](https://github.com/nithin-popuri7/Muttiple-capacity-with-infinite-capacity/assets/94154780/13d30585-0c48-4b29-be60-57aa39e77fbf)
 
 ## Program:
-```
-Developed By :Challa Sandeep
-Register.No :212221240011
-```
+
 ```
 import math
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
@@ -59,7 +56,24 @@ print("--------------------------------------------------------------")
 ```
 
 ## Output :
-![exp5](https://github.com/nithin-popuri7/Muttiple-capacity-with-infinite-capacity/assets/94154780/d961ec39-3eb9-44d5-875b-375f5694d5df)
+```
+Enter the mean inter arrival time of objects from Feeder (in secs): 18
+Enter the mean  inter service time of Lathe Machine (in secs) :  24
+Enter the Additional time taken for the Robot (in secs) :  90
+Number of service centre :  87
+--------------------------------------------------------------
+Multiple Server with Infinite Capacity - (M/M/c):(oo/FIFO)
+--------------------------------------------------------------
+The mean arrival rate per second : 0.06 
+The mean service rate per second : 0.01 
+Average number of objects in the system : 6.33 
+Average number of objects in the conveyor :  0.00 
+Average waiting time of an object in the system : 114.00 secs
+Average waiting time of an object in the conveyor : 0.00 secs
+Probability that the system is busy : 0.07 
+Probability that the system is empty : 0.93 
+--------------------------------------------------------------
+```
 
 ## Result :
 Thus the average number of materials in the system and conveyor, waiting time of each material in the system and conveyor is found successfully.
